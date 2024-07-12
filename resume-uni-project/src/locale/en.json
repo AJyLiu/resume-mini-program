@@ -1,0 +1,15 @@
+{
+  "page.index.name": "Mr. Liu",
+  "page.index.more": "Learn more",
+  "page.language.label": "Language:",
+  "page.language.zh": "中文",
+  "page.language.en": "English",
+  "page.common.cancel": "Cancel",
+  "page.common.confirm": "Confirm",
+  "page.selfInfo.major.swe": "SWE",
+  "page.selfInfo.major": "Software engineering",
+  "page.selfInfo.education": "B.Eng",
+  "page.selfInfo.workingLife.abbreviate": " YRS EXP",
+  "page.selfInfo.workingLife": " years of experience",
+  "page.selfInfo.position": "FE Development Engineer"
+}

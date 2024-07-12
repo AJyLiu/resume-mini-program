@@ -1,0 +1,20 @@
+{
+	"id": "1",
+	"name": "刘俊遥",
+	"age": "31",
+	"gender": "男",
+	"maritalStatus": "已婚",
+	"famousEthnicGroup": "汉", // 名族
+	"occupation": "Web前端开发工程师", // 职业
+	"university": "攀枝花学院", // 毕业院校
+	"major": "软件工程", // 专业
+	"majorType": "普通全日制",
+	"education": "本科", // 学历
+	"phone": "18008044071", // 电话
+	"email": "903803024@qq.com", // 邮箱
+	"address": "成都市新都区" , // 地址
+	"graduationDate": "2016-06-20" ,// 毕业时间
+	"workStart": "2016-08",
+	"degree": "工学学士",
+	"weChat": "JyLiu"
+}
