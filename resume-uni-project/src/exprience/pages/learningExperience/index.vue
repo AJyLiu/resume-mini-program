@@ -1,5 +1,6 @@
 <template>
-	<view class="swiper-box">
+	<!-- 小程序审核不通过 -->
+	<!-- <view class="swiper-box">
 		<Swiper></Swiper>
 	</view>
 	<view class="school-box">
@@ -13,7 +14,7 @@
 		<view class="school-desc">
 			攀枝花学院（Panzhihua University）是教育部布点在川西南、滇西北的一所以工为主的综合性普通本科院校，是硕士学位授予单位，学校坐落于四川省攀枝花市。
 		</view>
-	</view>
+	</view> -->
 	<view class="learning-collapse">
 		<uni-collapse v-model="accordionValue" accordion>
 			<uni-collapse-item title="教育经历" >
@@ -32,7 +33,6 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import Swiper from '@/components/Swiper.vue'
 import LearningInfo from './LearningInfo.vue'
 import { useGetLearningInfo, useGetStepOption } from './config'
 import { useShareApp } from '@/components/commonHooks'
@@ -71,8 +71,6 @@ onShareTimeline(() => {
 			font-size: 36rpx;
 			margin-left: 30rpx;
 			flex: 1;
-			border-bottom: 1px solid #f6f6f6;
-			padding-bottom: 8rpx;
 			.main-title {
 				color: $uni-text-color;
 			}

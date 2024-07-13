@@ -1,6 +1,14 @@
 <template>
 	<view class="learning-info">
 		<view class="learning-item">
+			<text class="item-label">毕业院校</text>
+			<text>{{ learningInfo.schoolName }}</text>
+		</view>
+		<view class="learning-item">
+			<text class="item-label">院校类别</text>
+			<text>{{ learningInfo.schoolType }}</text>
+		</view>
+		<view class="learning-item">
 			<text class="item-label">入学时间</text>
 			<text>{{ learningInfo.enrollmentTime }}</text>
 		</view>
